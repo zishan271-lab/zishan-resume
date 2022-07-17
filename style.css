@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+body{
+    margin-left: 170px;background-color: rgb(236, 133, 15);
+
+
+}
+.nav{
+    
+    background-color: black;
+    color: blanchedalmond;
+    width: 80vw;
+    
+    
+}
+
+.nav h1{
+    width: 40%;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 14px goldenrod;
+    margin-left: 300px;
+    background-color:red;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.nav h1:hover{
+    width: 50%;
+    transition: 1s;
+}
+.contact-detail{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+h4{
+    background-color: rgb(218, 165, 32);
+    border-radius: 5px;
+    color: brown;
+}
+
+
+
+.edu{
+    background-color: black;
+    color: blanchedalmond;
+    width: 80vw;
+}
+
+.edu h1{
+    width: 40%;
+    text-align: center;
+    /* padding-top: 30px; */
+    /* padding-bottom: 10px; */
+    background-color:red;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px goldenrod;
+    margin-bottom: 20px;
+}
+.edu h1:hover{
+    width: 50%;
+    transition: 1s;
+    
+}
+ul{
+    padding-top: 10px;
+    margin-left: 20px;
+    /* background-color:wheat;
+    color: black; */
+
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:wheat; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+li{
+    /* background-color:rgb(64, 0, 255); */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 14px goldenrod,-5px -3px 14px goldenrod;
+}
+
+.skill{
+    background-color: black;
+    color: blanchedalmond;
+    width: 80vw;
+
+}
+
+.skill h1{
+    width: 40%;
+    text-align: center;
+    background-color:red;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px goldenrod;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.skill h1:hover{
+    width: 50%;
+    transition: 1s;
+    
+}
+
+.PRO{
+    background-color: black;
+    color: blanchedalmond;
+    width: 80vw;
+
+}
+
+.PRO h1{
+    width: 40%;
+    text-align: center;
+    background-color:red;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px goldenrod;
+    margin-bottom: 20px;
+    padding-top: 15px;
+
+}
+
+.PRO h1:hover{
+    width: 50%;
+    transition: 1s;
+    
+}
+
+.lan{
+    background-color: black;
+    color: blanchedalmond;
+    width: 80vw;
+
+}
+
+.lan h1{
+    width: 40%;
+    text-align: center;
+    background-color:red;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px goldenrod;
+    margin-bottom: 20px;
+    padding-top: 15px;
+
+}
+
+.lan h1:hover{
+    width: 50%;
+    transition: 1s;
+    
+}
